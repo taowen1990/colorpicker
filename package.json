@@ -1,0 +1,38 @@
+{
+  "name": "colorpicker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ios": "react-native run-ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.54.3",
+    "react-native-camera": "^1.0.3",
+    "react-native-image-color-picker": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1",
+    "standard": "latest"
+  },
+  "standard": {
+    "ignore": [],
+    "globals": [
+      "describe",
+      "test",
+      "beforeAll",
+      "beforeEach",
+      "afterAll",
+      "afterEach",
+      "expect"
+    ]
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
